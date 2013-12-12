@@ -52,7 +52,7 @@ module Valle
 
         Valle.can_process_model?(subclass.model_name) &&
         inherited_from_class == ActiveRecord::Base &&
-        subclass.table_exists? &&
+        subclass.table_exists?
       end
     end
   end
